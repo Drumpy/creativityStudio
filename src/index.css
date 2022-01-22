@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+
+@layer base {
+  @font-face {
+    font-family: "Bauziet";
+    src: local("Bauziet"), url(./fonts/Bauziet-Norm-Bold.ttf) format("ttf");
+  }
+
+  h1, h2 {
+    @apply font-heading;
+  }
+}
+
+@tailwind utilities;
