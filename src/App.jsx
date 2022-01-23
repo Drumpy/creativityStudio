@@ -26,6 +26,7 @@ function App() {
           </div>
         </nav>
 
+        {/* Hero */}
         <div className="container mx-auto px-4 text-center flex flex-col justify-center flex-grow z-0">
           {/* Hero Text */}
           <div className="text-7xl font-bold uppercase mb-5">
@@ -37,10 +38,21 @@ function App() {
           <p className="text-2xl text-[#D2DCF9] mb-16">
             We are a Creative Studio based in Uruguay.
           </p>
+
           {/* Hero CTA */}
           <a className="flex items-center gap-2 px-6 py-3 bg-[#51E075] hover:bg-[#83e29b] text-[#06102D] uppercase self-center font-semibold text-xl leading-5 cursor-pointer transition-all">
-            See your work <ArrowRight />
+            See our work <ArrowRight />
           </a>
+
+          <img
+            src="./images/prism1.png"
+            className="absolute bottom-1/4 right-[18%] w-96 floating drop-shadow-xl"
+          />
+          <img
+            src="./images/prism2.png"
+            className="absolute top-[20%] left-[25%] w-40 floating drop-shadow-xl"
+          />
+
           {/* Services Carousel */}
           <div className="absolute bottom-20 -z-10 pointer-events-none flex">
             <div className="flex gap-48 text-[150px] text-[#0c1f5a54] leading-none uppercase whitespace-nowrap font-[Bauziet] animate-translate">
