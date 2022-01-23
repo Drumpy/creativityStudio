@@ -19,7 +19,7 @@ function App() {
         {/* Hero */}
         <div className="xl:container mx-auto px-4 flex flex-col flex-grow justify-center items-center text-center z-0">
           {/* Hero Text */}
-          <div className="text-6xl md:text-6xl lg:text-7xl font-bold uppercase mt-20 mb-5 relative">
+          <div className="text-5xl md:text-6xl lg:text-7xl font-bold uppercase mt-20 mb-5 relative">
             <h1 className="text-[#7895ED] antialiased">
               Take care of the content
               <span className="block text-[#D2DCF9]">We tell the story</span>

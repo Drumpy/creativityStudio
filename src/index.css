@@ -2,11 +2,15 @@
 
 @tailwind base;
 @tailwind components;
+@tailwind utilities;
 
 @layer base {
   @font-face {
-    font-family: "Bauziet";
-    src: local("Bauziet"), url(./fonts/Bauziet-Norm-Bold.ttf) format("ttf");
+    font-family: "Bauziet Norm Bold";
+    src: url("/fonts/Bauziet-Norm-Bold.woff2") format("woff2"),
+      url("/fonts/BauzietNormBold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
   }
 
   h1,
@@ -14,8 +18,6 @@
     @apply font-heading;
   }
 }
-
-@tailwind utilities;
 
 .floating {
   animation: floating-globe 3s ease-in-out alternate infinite;
