@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -9,12 +9,20 @@
     src: local("Bauziet"), url(./fonts/Bauziet-Norm-Bold.ttf) format("ttf");
   }
 
-  h1, h2 {
+  h1,
+  h2 {
     @apply font-heading;
   }
 }
 
 @tailwind utilities;
 
-/* animation: grid-translate 80s linear infinite var(--direction); */
+.floating {
+  animation: floating-globe 3s ease-in-out alternate infinite;
+}
 
+@keyframes floating-globe {
+  100% {
+    transform: translate3D(0, -30px, 0);
+  }
+}
