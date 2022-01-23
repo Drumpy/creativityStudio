@@ -1,5 +1,13 @@
 import { Twitter, Mail, Instagram, ArrowRight } from "react-feather";
 
+const services = [
+  "Design",
+  "Web Development",
+  "Branding",
+  "Video Production",
+  "Video Editing",
+];
+
 function App() {
   return (
     <>
@@ -18,7 +26,7 @@ function App() {
           </div>
         </nav>
 
-        <div className="container mx-auto px-4 text-center flex flex-col justify-center flex-grow">
+        <div className="container mx-auto px-4 text-center flex flex-col justify-center flex-grow z-0">
           {/* Hero Text */}
           <div className="text-7xl font-bold uppercase mb-5">
             <h1 className="text-[#7895ED] antialiased">
@@ -29,9 +37,18 @@ function App() {
           <p className="text-2xl text-[#D2DCF9] mb-16">
             We are a Creative Studio based in Uruguay.
           </p>
+          {/* Hero CTA */}
           <a className="flex items-center gap-2 px-6 py-3 bg-[#51E075] hover:bg-[#83e29b] text-[#06102D] uppercase self-center font-semibold text-xl leading-5 cursor-pointer transition-all">
             See your work <ArrowRight />
           </a>
+          {/* Services Carousel */}
+          <div className="absolute bottom-20 -z-10 pointer-events-none flex">
+            <div className="flex gap-48 text-[150px] text-[#0c1f5a54] leading-none uppercase whitespace-nowrap font-[Bauziet] animate-translate">
+              {services.map((service) => (
+                <span>{service}</span>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </>
