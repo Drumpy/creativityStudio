@@ -10,7 +10,7 @@ export function Navbar() {
         </div>
         {/* Logo */}
         <h2 className="text-lg md:text-2xl text-[#D2DCF9] uppercase">
-          Creative Studio
+          Kaverno Studio
         </h2>
         {/* Social Icons */}
         <div className="hidden lg:flex items-center gap-8 absolute top-0 right-0 lg:right-4 text-[#7895ED]">

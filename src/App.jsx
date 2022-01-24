@@ -29,7 +29,7 @@ function App() {
             </h1>
             <img
               src="./images/prism2.png"
-              className="hidden lg:block absolute bottom-1/4 -right-12 floating drop-shadow-xl pointer-events-none"
+              className="hidden lg:block absolute -bottom-[40%] -right-12 floating drop-shadow-xl pointer-events-none"
             />
             <img
               src="./images/prism2.png"
