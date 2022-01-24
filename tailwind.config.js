@@ -13,7 +13,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      heading: ["Bauziet Norm Bold", "sans-serif"],
+      heading: ["Bauziet", "sans-serif"],
       sans: ["Inter", "sans-serif"],
     },
   },
