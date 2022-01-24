@@ -2,7 +2,7 @@ import { Twitter, Mail, Instagram, Menu, Globe } from "react-feather";
 
 export function Navbar() {
   return (
-    <nav className="w-full py-5 md:py-7 flex items-center fixed top-0 bg-[#06102D80] backdrop-blur-md md:bg-transparent z-10">
+    <nav className="w-full py-5 md:py-7 flex items-center fixed top-0 bg-[#06102D80] backdrop-blur-md md:bg-transparent z-30">
       <div className="w-full flex justify-between sm:justify-center xl:container lg:container md:container sm:container mx-auto px-4 relative">
         {/* Menu */}
         <div className="sm:hidden text-[#7895ED]">
