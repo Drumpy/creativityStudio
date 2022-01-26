@@ -1,6 +1,15 @@
 import { Twitter, Mail, Instagram, Menu, Globe } from "react-feather";
+import { useTranslation } from "react-i18next";
 
 export function Navbar() {
+  const { i18n } = useTranslation();
+
+  const changeLanguage = () => {
+    i18n.language === "en"
+      ? i18n.changeLanguage("sp")
+      : i18n.changeLanguage("en");
+  };
+
   return (
     <nav className="w-full py-5 md:py-6 flex items-center fixed top-0 bg-[#06102D80] backdrop-blur-md md:bg-transparent z-30">
       <div className="w-full flex justify-between sm:justify-center xl:container lg:container md:container sm:container mx-auto px-4 relative">
@@ -46,13 +55,13 @@ export function Navbar() {
             <Twitter width={20} />
           </a>
           <a href="#" className="hover:text-[#A5B8F3] transition-all">
-            <Mail width={20} />
+            <Globe width={20} onClick={() => changeLanguage()} />
           </a>
         </div>
         {/* Language */}
         <div className="sm:hidden text-[#7895ED]">
           <button className="hover:text-[#A5B8F3] transition-all">
-            <Globe />
+            <Globe onClick={() => changeLanguage()} />
           </button>
         </div>
       </div>
