@@ -20,7 +20,7 @@ const resources = {
       SEO_DESCRIPTION: "",
       HERO_TITLE_UP: "Cuida tu contenido",
       HERO_TITLE_DOWN: "Nosotros contamos la historia",
-      HERO_SUBTITLE: "Somos un Estudio Creativo establecidos en Uruguay.",
+      HERO_SUBTITLE: "Somos un Estudio Creativo establecido en Uruguay.",
       CTA_PRIMARY_TITLE: "Ver trabajos",
       CTA_SECONDARY_TITLE: "Charlemos",
     },

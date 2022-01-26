@@ -8,6 +8,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "framer-motion": "^6.2.3",
     "i18next": "^21.6.9",
     "i18next-browser-languagedetector": "^6.1.3",
     "react": "^17.0.2",
