@@ -6,7 +6,7 @@ export function Navbar() {
       <div className="w-full flex justify-between sm:justify-center xl:container lg:container md:container sm:container mx-auto px-4 relative">
         {/* Menu */}
         <div className="sm:hidden text-[#7895ED]">
-          <button>
+          <button className="hover:text-[#A5B8F3] transition-all">
             <Menu />
           </button>
         </div>
@@ -39,19 +39,19 @@ export function Navbar() {
 
         {/* Social Icons */}
         <div className="hidden lg:flex items-center gap-6 absolute top-0 bottom-0 right-0 lg:right-4 text-[#7895ED]">
-          <a href="#" className="hover:text-[#A5B8F3]">
+          <a href="#" className="hover:text-[#A5B8F3] transition-all">
             <Instagram width={20} />
           </a>
-          <a href="#" className="hover:text-[#A5B8F3]">
+          <a href="#" className="hover:text-[#A5B8F3] transition-all">
             <Twitter width={20} />
           </a>
-          <a href="#" className="hover:text-[#A5B8F3]">
+          <a href="#" className="hover:text-[#A5B8F3] transition-all">
             <Mail width={20} />
           </a>
         </div>
         {/* Language */}
         <div className="sm:hidden text-[#7895ED]">
-          <button>
+          <button className="hover:text-[#A5B8F3] transition-all">
             <Globe />
           </button>
         </div>
