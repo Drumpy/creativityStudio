@@ -7,10 +7,8 @@
 @layer base {
   @font-face {
     font-family: "Bauziet";
-    src: url("/fonts/Bauziet-Norm-Bold.woff2") format("woff2"),
-      url("/fonts/BauzietNormBold.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
+    src: url("/fonts/Bauziet-Wide-ExtraBold.woff2") format("woff2"),
+      url("/fonts/BauzietWideExtraBold.woff") format("woff");
   }
 
   * {
@@ -25,6 +23,16 @@
 
 .floating {
   animation: floating-globe 3s ease-in-out alternate infinite;
+}
+
+.animated-text {
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url(./images/liquid.webp);
+  /* background-image: url(https://i.giphy.com/media/loXcBvAjR0W9Omrm7O/giphy.webp); */
+  background-size: cover;
+  background-position: center center;
+  color: transparent;
 }
 
 @keyframes floating-globe {

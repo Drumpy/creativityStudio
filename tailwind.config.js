@@ -2,16 +2,7 @@ module.exports = {
   mode: "jit",
   plugins: [],
   theme: {
-    extend: {
-      keyframes: {
-        translate: {
-          to: { transform: "translateX(-100%)" },
-        },
-      },
-      animation: {
-        translate: "translate 60s linear infinite normal",
-      },
-    },
+    extend: {},
     fontFamily: {
       heading: ["Bauziet", "sans-serif"],
       sans: ["Inter", "sans-serif"],
