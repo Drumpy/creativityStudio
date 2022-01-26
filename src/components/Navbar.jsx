@@ -6,12 +6,10 @@ export function Navbar() {
       <div className="w-full flex justify-between sm:justify-center xl:container lg:container md:container sm:container mx-auto px-4 relative">
         {/* Menu */}
         <div className="sm:hidden text-[#7895ED]">
-          <Menu />
+          <button>
+            <Menu />
+          </button>
         </div>
-        {/* Logo */}
-        {/* <h2 className="text-lg md:text-2xl text-[#D2DCF9] uppercase">
-          Kaverno Studio
-        </h2> */}
         <a href="#">
           <svg
             width="30"
@@ -41,13 +39,21 @@ export function Navbar() {
 
         {/* Social Icons */}
         <div className="hidden lg:flex items-center gap-6 absolute top-0 bottom-0 right-0 lg:right-4 text-[#7895ED]">
-          <Instagram width={20} />
-          <Twitter width={20} />
-          <Mail width={20} />
+          <a href="#" className="hover:text-[#A5B8F3]">
+            <Instagram width={20} />
+          </a>
+          <a href="#" className="hover:text-[#A5B8F3]">
+            <Twitter width={20} />
+          </a>
+          <a href="#" className="hover:text-[#A5B8F3]">
+            <Mail width={20} />
+          </a>
         </div>
         {/* Language */}
         <div className="sm:hidden text-[#7895ED]">
-          <Globe />
+          <button>
+            <Globe />
+          </button>
         </div>
       </div>
     </nav>
