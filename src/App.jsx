@@ -22,7 +22,7 @@ function App() {
         {/* Hero */}
         <div className="xl:container mx-auto px-4 flex flex-col flex-grow justify-center items-center text-center z-10 overflow-hidden">
           {/* Hero Text */}
-          <div className="text-5xl md:text-6xl lg:text-7xl font-[Inter Var] font-bold uppercase lg:mt-20 lg:mb-5 relative grow flex flex-col justify-end">
+          <div className="text-5xl md:text-6xl lg:text-7xl font-[Inter Var] font-bold uppercase lg:mt-20 relative grow flex flex-col justify-end">
             <h1 className="text-[#7895ED] antialiased mb-4">
               Take care of the content
               <span className="block text-[#D2DCF9] animated-text">We tell the story</span>
@@ -36,7 +36,7 @@ function App() {
               className="hidden lg:block absolute top-[20%] left-0 w-40 floating drop-shadow-xl pointer-events-none"
             /> */}
           </div>
-          <p className="text-xl lg:text-2xl text-[#D2DCF9] lg:mb-16">
+          <p className="text-xl lg:text-2xl text-[#D2DCF9] lg:mb-28">
             We are a Creative Studio based in Uruguay.
           </p>
 
