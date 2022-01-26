@@ -28,7 +28,7 @@
 .animated-text {
   -moz-background-clip: text;
   -webkit-background-clip: text;
-  background-image: url(./images/liquid.webp);
+  background-image: url(/images/liquid.webp);
   /* background-image: url(https://i.giphy.com/media/loXcBvAjR0W9Omrm7O/giphy.webp); */
   background-size: cover;
   background-position: center center;
