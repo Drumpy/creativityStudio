@@ -31,7 +31,7 @@
 }
 
 .floating {
-  animation: floating-globe 3s ease-in-out alternate infinite;
+  animation: floating-globe 3s ease-in-out infinite;
 }
 
 .animated-text {
@@ -44,7 +44,16 @@
 }
 
 @keyframes floating-globe {
+  0% {
+    filter: drop-shadow(0 20px 15px rgba(6 16 45 / 0.3));
+    transform: translatey(0px);
+  }
+  50% {
+    filter: drop-shadow(0 25px 35px rgba(6 16 45 / 0.2));
+    transform: translatey(-20px);
+  }
   100% {
-    transform: translate3D(0, -30px, 0);
+    filter: drop-shadow(0 20px 15px rgba(6 16 45 / 0.3));
+    transform: translatey(0px);
   }
 }

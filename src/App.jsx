@@ -23,7 +23,7 @@ function App() {
       </div>
       <section
         id="services"
-        className="min-h-screen bg-gradient-to-br from-[#D2DCF9] via-[#E8EDFC] to-[#D2DCF9] flex flex-col justify-center items-center pt-32"
+        className="min-h-screen bg-gradient-to-br from-[#D2DCF9] via-[#E8EDFC] to-[#D2DCF9] flex flex-col justify-center content-between pt-32 md:pt-0"
       >
         <Services />
       </section>
