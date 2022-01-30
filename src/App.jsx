@@ -7,14 +7,14 @@ import AnimatedCursor from "react-animated-cursor";
 function App() {
   return (
     <>
-      <div className="min-h-screen bg-gradient-to-br from-[#0c1f5a] via-[#06102D] to-[#0C1F5A] flex flex-col">
+      <div className="min-h-screen bg-gradient-to-br from-[#0c1f5a] via-[#06102D] to-[#0C1F5A] flex flex-col relative overflow-hidden">
         <AnimatedCursor
-          innerSize={8}
-          outerSize={20}
+          innerSize={20}
+          outerSize={35}
           color="81, 224, 117"
           outerAlpha={0.2}
-          innerScale={0.5}
-          outerScale={3}
+          innerScale={0.7}
+          outerScale={2}
         />
         <Navbar />
         <Hero />
