@@ -1,6 +1,7 @@
 // Components
 import { Navbar } from "./components/Navbar";
 import { Hero } from "./components/Hero";
+import { Services } from "./components/Services";
 import { MarqueeServices } from "./components/MarqueeServices";
 import AnimatedCursor from "react-animated-cursor";
 
@@ -20,8 +21,11 @@ function App() {
         <Hero />
         <MarqueeServices />
       </div>
-      <section className="min-h-screen bg-gray-900">
-        <p>Prueba</p>
+      <section
+        id="services"
+        className="min-h-screen bg-gradient-to-br from-[#D2DCF9] via-[#E8EDFC] to-[#D2DCF9] flex flex-col justify-center items-center pt-32"
+      >
+        <Services />
       </section>
     </>
   );

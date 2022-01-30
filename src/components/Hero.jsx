@@ -45,7 +45,10 @@ export function Hero() {
         variants={fadeIn()}
         className="flex flex-col sm:flex-row gap-4 w-full justify-end sm:justify-center grow mb-16 sm:m-0"
       >
-        <a className="flex items-center justify-center lg:self-start gap-2 px-6 py-3 bg-[#51E075] border rounded border-[#51E075] hover:bg-[#83e29b] hover:border-[#83e29b] text-[#06102D] uppercase sm:self-center font-semibold text-xl leading-5 cursor-pointer transition-all">
+        <a
+          href="#services"
+          className="flex items-center justify-center lg:self-start gap-2 px-6 py-3 bg-[#51E075] border rounded border-[#51E075] hover:bg-[#83e29b] hover:border-[#83e29b] text-[#06102D] uppercase sm:self-center font-semibold text-xl leading-5 cursor-pointer transition-all"
+        >
           {t("CTA_PRIMARY_TITLE")} <ArrowRight />
         </a>
         <a className="flex items-center justify-center lg:self-start px-6 py-3 text-[#7895ED] hover:text-[#A5B8F3] border rounded border-[#7895ED] hover:border-[#A5B8F3] uppercase font-semibold text-xl leading-6 cursor-pointer transition-all sm:self-center">
